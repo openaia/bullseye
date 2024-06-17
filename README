@@ -7,7 +7,7 @@ sudo addRepo.sh
 you can get the shell script like:
 
 wget https://raw.githubusercontent.com/openaia/bullseye/main/addRepo.sh
-befroe runnig the script we need to set the priority this is optinal if you want to prefer this repo packages over others.
+before running the script we need to set the priority this is optinal if you want to prefer this repo packages over others.
 
 sudo vi /etc/apt/preferences.d/openaia.pref
 then add
