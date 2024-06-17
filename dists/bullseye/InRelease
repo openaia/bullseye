@@ -1,0 +1,45 @@
+-----BEGIN PGP SIGNED MESSAGE-----
+Hash: SHA512
+
+Codename: edge
+Version: 1
+Architectures: arm64
+Description: bullseye repository
+Suite: bullseye
+Date: Mon, 10 Jun 2024 16:35:56 UTC
+MD5Sum:
+ 8c08b7527c09705a8cae027b752b64a0 3910 main/binary-arm64/Packages
+ f90c85b7d5fa2f06e9f378e406e5c14b 1968 main/binary-arm64/Packages.xz
+ 68d9e3d300afd7c3713197232eb1f173 30810 main/Contents-arm64
+ 26c8676c4cca83baf7ec8df4c7e1852b 2404 main/Contents-arm64.xz
+SHA1:
+ 7569cb5fb7c3102392794dc378cc73ba549b9ac2 3910 main/binary-arm64/Packages
+ 46d696903ec5615448e55b48dcac9109a7fa2fa0 1968 main/binary-arm64/Packages.xz
+ a3d4426d6c058de5e69b958a00d0722feba38f97 30810 main/Contents-arm64
+ 8d9c559bbe2426f6ca726bbd65ee6d1d97c6b02e 2404 main/Contents-arm64.xz
+SHA256:
+ a6c54389091c068c48a1119c108d56a1abd3a03dca2609b0adb5db9b3e2f1037 3910 main/binary-arm64/Packages
+ fe2582d35771af506dbe05ff3b558064f6d8245bb4772f1253a06f50f60eee15 1968 main/binary-arm64/Packages.xz
+ 875729a8e643deda9dcc3ed2420eb1a1082efc54fc63c7ad234fb88e3b03857b 30810 main/Contents-arm64
+ 470094bf541196c0cf040b100603be6fd078f747691b64e86080936a19cd7826 2404 main/Contents-arm64.xz
+SHA512:
+ 828c35d2b4b267a1cb0e2b20ea8eada07bc32b847e78c29affeb4de8aea146113a72ad3c85fe1380ea8d2ac30d357a578ee35882fc0bd88ae9c60529be4b7bf1 3910 main/binary-arm64/Packages
+ e3583a793ecc824803947f0b6dd312977a9a9c9dab97991083cc95b462c6a2bdbc91a9acd73f84b5d449a62e715a89ab0675be4c967c9aab27e2e61ab1e827bd 1968 main/binary-arm64/Packages.xz
+ 1fef0fb89d25fa012108a68f5b957e09ac8d7660e64e3044c0dfd2a08fe410d36bed2f8d5e5baa701a8130d620799e87cb06597b34c0b93d2b14ddd800358d60 30810 main/Contents-arm64
+ 5d75bf35b86b5a44fa043c1145a0816c23f2b8e0f4d6694c03ecf213c12b3e0f1c42f664515dfc29d501ab2f038cc2e576278d5c90d51ec3e96b3f0325c88816 2404 main/Contents-arm64.xz
+-----BEGIN PGP SIGNATURE-----
+
+iQIzBAEBCgAdFiEEsEf2fjOVzWfEHYjiud7j1G/31zIFAmZnSRwACgkQud7j1G/3
+1zKohhAAxHhvfTjxNxvp2h/ZO23lXs7CHi3BWyZUayRxCaXRmQW0B/Zl45yH/l9x
+lGRIVz/GUKpA5qK2XKbHdibKEnm4qbM9oZDzbzp0eIFCCe0Ogi82Q8o7jlT7Qk0Q
+aAsaWoYGhsg21ZwKLpUG5rqQ435tBJCaQIqrfp6gRefyiQ8mWuTRYp7mMBOnC0UL
+7qtQ8KwK1gryARC8p4BGj2OyyGNkjsuywDwD9IIgC3qRsB8+YSHd+PCDvlh1+OFt
+vo+l1y+8ARlZ6V7UjwA4L1XsobOETuChNsEvHfYPrl9+ZhKyRPnjXKunGy/0+mGs
+/mk4gap0aLnIqggdeGhVlfuGNTbp5RwXesyh04c86YaJOzq1EDzsDLt0PGGvMJcq
+jeDn+WJdW7CgKKcPVWiCYy2lx6vj8AXTvcX0Ksm45kd2Q8SifnCV5/stC8kGPen/
+xtXmaR7zZwEbXxjvq3T30hO1hbnFrtu7Nha6jr8eFKY7nGgjIJTRZ1BcsT4j/Wdo
+e7y58SeeewrTeh0/A1RFdiRSjqP6mRmoynpTN8zW6BLDeSNfEuD50ZPD7qig/tyy
+5awkBdFEOcbTeJAcCHCdek/YBYlSWLYHtWiWBh6AT7tVQlk1Vs6CGWpI0UeLwk8q
+P4d9pFWzl+hQgfpAQHxNfaYp/1dogoS291wiRheI6B1vzUZhsd0=
+=c4zA
+-----END PGP SIGNATURE-----

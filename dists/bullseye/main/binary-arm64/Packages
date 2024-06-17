@@ -1,0 +1,76 @@
+Package: android-tools-adbd
+Source: android-tools
+Version: 5.1.1.r38-1.1
+Architecture: arm64
+Maintainer: Android Tools Maintainers <android-tools-devel@lists.alioth.debian.org>
+Installed-Size: 133
+Depends: libbsd0 (>= 0.0), libc6 (>= 2.17), libpcre3, libssl1.1 (>= 1.1.0)
+Section: devel
+Priority: extra
+Homepage: https://developer.android.com/tools/help/adb.html
+Description: Android Debug Bridge daemon
+ Android Debug Bridge (adb) is a versatile tool that lets you manage the state
+ of an emulator instance or Android-powered device. It is a client-server
+ program that includes three components:
+ .
+ A client, which runs on your development machine. You can invoke a
+ client from a shell by issuing an adb command. Other Android tools such
+ as the ADT plugin and DDMS also create adb clients.
+ .
+ A server, which runs as a background process on your development
+ machine.  The server manages communication between the client and the
+ adb daemon running on an emulator or device.
+ .
+ A daemon, which runs as a background process on each emulator or device
+ instance.
+ .
+ This package provides the daemon component.
+Filename: dists/bullseye/main/binary-arm64/android-tools-adbd_5.1.1.r38-1.1_arm64.deb
+Size: 50176
+MD5Sum: bd5ca4573217cd940ef5d234bcfa21ef
+SHA1: 7becf5a9bbeac8df7cdec220fad486081e10db39
+SHA256: 93ba9d9a28c60714cd3934fb0c445c791cf5e6bd898d09a4fb9914a70c4764dd
+SHA512: 2fb50efcccbb6ecfd6c67eca754f4e6d064410313dcb8bd001b7c3151e246606306aa47107b869c7334e72096572033f27007d84c26a9178c02e6b6cbccc55c9
+
+Package: blueman
+Version: 2.1.4-1
+Architecture: arm64
+Maintainer: Christopher Schramm <debian@cschramm.eu>
+Installed-Size: 3159
+Depends: libbluetooth3 (>= 4.91), libc6 (>= 2.17), libglib2.0-0 (>= 2.31.8), dconf-gsettings-backend | gsettings-backend, python3 (<< 3.10), python3 (>= 3.9~), python3:any, dbus, default-dbus-session-bus | dbus-session-bus, bluez (>= 5), bluez-obexd, python3-gi (>= 3.27.2), notification-daemon, librsvg2-common, gnome-icon-theme | mate-icon-theme | elementary-xfce-icon-theme | adwaita-icon-theme | papirus-icon-theme, libpulse-mainloop-glib0, gir1.2-gtk-3.0, gir1.2-gdkpixbuf-2.0, gir1.2-glib-2.0, gir1.2-pango-1.0, python3-cairo, python3-gi-cairo, gir1.2-ayatanaappindicator3-0.1, gir1.2-nm-1.0, policykit-1
+Recommends: pulseaudio-module-bluetooth
+Section: x11
+Priority: optional
+Homepage: https://github.com/blueman-project/blueman
+Description: Graphical bluetooth manager
+ Blueman is a GTK+ bluetooth management utility for GNOME using bluez D-Bus
+ backend.
+Filename: dists/bullseye/main/binary-arm64/blueman_2.1.4-1_arm64.deb
+Size: 739176
+MD5Sum: 785829a8793bb172b52b45421e01caae
+SHA1: e944397bd217499815989e62e17f73841837585c
+SHA256: 0cd9afca9d77b99f853fd96ca5c572d3e95bc29a463319662bca85c3c80e48b1
+SHA512: fe3726bf46b461e9576c2dabf180366f7fbd6bfca0350b62d3d69315b8d69243fe82a212460c2d4bd9c91a9777d0af3ff854dbb3f16fdd33515eba75335abde9
+
+Package: xserver-xorg-legacy
+Source: xorg-server
+Version: 2:1.20.11-1
+Architecture: arm64
+Maintainer: Debian X Strike Force <debian-x@lists.debian.org>
+Installed-Size: 2373
+Depends: xserver-common (>= 2:1.20.11-1), libc6 (>= 2.17), debconf (>= 0.5) | debconf-2.0
+Breaks: x11-common (<< 1:7.7+10~), xserver-xorg-core (<< 2:1.17.2-3~)
+Replaces: x11-common (<< 1:7.7+10~), xserver-xorg-core (<< 2:1.17.2-3~)
+Section: x11
+Priority: optional
+Homepage: https://www.x.org/
+Description: setuid root Xorg server wrapper
+ This package provides a wrapper for the Xorg X server, which is
+ necessary for legacy drivers and non-Linux kernels.
+Filename: dists/bullseye/main/binary-arm64/xserver-xorg-legacy_1.20.11-1_arm64.deb
+Size: 2288476
+MD5Sum: a9bb570ebfa21b897e47eea932c1d469
+SHA1: 9c2a47c53c015596357d367b0e235dcc0d2a4ef0
+SHA256: d09a72677aaae51f1760675a32f1d436782c3ace2004b38f3dd5008de2ac47e5
+SHA512: 69161f41e6f1999a945d515f82c535d49fd561d18d89ca70c477ff425f34a1ca9ab0b00631ecf5dc6b9d306002daac50dcebfbff81b0e3f80c5245b24c188f6b
+
